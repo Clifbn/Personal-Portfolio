@@ -43,7 +43,7 @@ return(
                         <Carousel responsive={responsive} infinite={true} className="skills-slider">
                             <div className="item">
                                 <img src={meter1} alt="" />
-                                <h5>Illistartor</h5>
+                                <h5>Illistartor 2026</h5>
                             </div>
                              <div className="item">
                                 <img src={meter2} alt="" />
@@ -64,6 +64,7 @@ return(
                 </Col>
             </Row>
         </Container>
+
         <img className="background-image-left" src={colorSharp} />
 
 
