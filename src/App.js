@@ -4,7 +4,7 @@ import NavBar from './components/navBar';
 import { Banner } from './components/banner';
 import { Skills } from './components/Skills'
 import { Projects } from './components/Projects'
-import { Video } from './components/Video' 
+import { Video } from './components/Video'
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,9 +15,8 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
-      <Skills />
-      <Video />
       <Projects />
+      <Video />
       <Contact />
       <Footer />
 
