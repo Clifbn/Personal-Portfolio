@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../assets/img/logo.svg';
+// logo not used, removed to satisfy linter
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 
@@ -43,9 +43,13 @@ function BasicExample() {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href='#'><img src={navIcon1} alt='LinkDIn icon'></img></a>
+              <a href='https://www.linkedin.com/in/cliftonbenjamin' target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <img src={navIcon1} alt='LinkedIn icon'></img>
+              </a>
 
-              <a href='#'><img src={navIcon3} alt='Instagram icon'></img></a>
+              <a href='https://www.instagram.com/cliftonbenjamin' target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <img src={navIcon3} alt='Instagram icon'></img>
+              </a>
             </div>
             <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
           </span>

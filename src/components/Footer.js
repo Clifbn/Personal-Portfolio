@@ -14,8 +14,12 @@ export const Footer = () => {
                     </Col>
                     <Col sm={6} className="text-center text-sm-end"> 
                         <div className="social-icon">
-                            <a href=""><img src={navIcon1} /></a>
-                            <a href=""><img src={navIcon3} /></a>
+                            <a href="https://github.com/Clifbn" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <img src={navIcon1} alt="GitHub profile" />
+                            </a>
+                            <a href="mailto:clifton@example.com" aria-label="Email">
+                                <img src={navIcon3} alt="Send email" />
+                            </a>
                         </div>
                         <p>CopyRight 2026. All Right Reserved Clifton Benjamin</p>
                     </Col>

@@ -45,7 +45,7 @@ export const Video = () => {
             </Row>
         </Container>
 
-        <img className="background-image-left" src={colorSharp} />
+        <img className="background-image-left" src={colorSharp} alt="Colorful background decoration" />
 
 
     </section>
